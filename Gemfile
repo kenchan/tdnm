@@ -32,6 +32,7 @@ end
 
 group :development do
   gem 'graphiql-rails'
+  gem 'oneshot_task_generator'
 end
 
 group :development, :test do

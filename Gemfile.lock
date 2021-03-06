@@ -218,6 +218,8 @@ GEM
     nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    oneshot_task_generator (0.2.0)
+      rails (>= 3.0.0)
     os (1.1.1)
     pry (0.13.1)
       coderay (~> 1.1)
@@ -359,6 +361,7 @@ DEPENDENCIES
   marked-rails
   meta-tags
   mysql2
+  oneshot_task_generator
   pry-rails
   puma
   rails (~> 6.1.0)
