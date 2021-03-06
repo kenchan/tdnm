@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_24_153331) do
+ActiveRecord::Schema.define(version: 2021_03_06_150137) do
 
   create_table "articles", charset: "utf8mb4", collation: "utf8mb4_bin", force: :cascade do |t|
     t.string "title", null: false
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_03_24_153331) do
     t.datetime "updated_at", null: false
     t.boolean "draft", default: false, null: false
     t.string "eye_catching_image_url", limit: 1024, default: "", null: false
+    t.string "new_slug"
     t.index ["published_on"], name: "idx_published_on"
   end
 
