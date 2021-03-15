@@ -38,6 +38,7 @@ end
 group :development, :test do
   gem 'byebug'
   gem 'capybara'
+  gem 'factory_bot_rails'
   gem 'listen'
   gem 'pry-rails'
   gem 'selenium-webdriver'
